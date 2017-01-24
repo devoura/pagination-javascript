@@ -1,0 +1,40 @@
+ul li {
+    display: inline;
+    padding: 0.3em 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #A9A8A8;
+}
+
+.active {
+    font-weight: bold;
+    background-color: #f2f2f2;
+    transition: background-color .8s;
+}
+
+th {
+    background-color: #51565A;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th, td {
+    padding: 0.3em;
+    text-align: left;
+}
